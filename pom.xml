@@ -4,7 +4,7 @@
 
 	<groupId>com.github.pwheel</groupId>
 	<artifactId>wagon-git</artifactId>
-	<version>0.2.6-SNAPSHOT</version>
+	<version>0.2.6</version>
 	<packaging>jar</packaging>
 
 	<name>wagon-git</name>
@@ -134,7 +134,7 @@
 	<scm>
 		<url>https://github.com/pwheel/wagon-git</url>
 		<connection>scm:git:ssh://git@github.com/pwheel/wagon-git.git</connection>
-	  <tag>HEAD</tag>
+	  <tag>wagon-git-0.2.6</tag>
   </scm>
 
 	<distributionManagement>
