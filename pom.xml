@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>ar.com.synergian</groupId>
+	<groupId>com.github.pwheel</groupId>
 	<artifactId>wagon-git</artifactId>
 	<version>0.2.6-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -24,11 +24,8 @@
 			<email>mschonaker@gmail.com</email>
 		</developer>
 	</developers>
-	<description>A Maven component (a wagon provider) that enables deploying artifacts in remote Git SCM repositories.</description>
-	<issueManagement>
-		<system>GitHub Issue Tracker</system>
-		<url>https://github.com/synergian/wagon-git/issues</url>
-	</issueManagement>
+	<description>A Maven component (a wagon provider) that enables deploying artifacts in remote Git SCM repositories.
+        A Temporary fork of Synergian's repo.</description>
 	<url>http://synergian.github.com/wagon-git/</url>
 	<organization>
 		<name>Synergian</name>
@@ -41,10 +38,6 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
-	<ciManagement>
-		<system>drone.io</system>
-		<url>https://drone.io/github.com/synergian/wagon-git/latest</url>
-	</ciManagement>
 
 	<dependencies>
 		<dependency>
@@ -139,26 +132,26 @@
 	</build>
 
 	<scm>
-		<url>https://github.com/synergian/wagon-git</url>
-		<connection>scm:git:ssh://git@github.com/synergian/wagon-git.git</connection>
+		<url>https://github.com/pwheel/wagon-git</url>
+		<connection>scm:git:ssh://git@github.com/pwheel/wagon-git.git</connection>
 	  <tag>HEAD</tag>
   </scm>
 
 	<distributionManagement>
 		<repository>
 			<id>wagon-git-releases</id>
-			<name>Synergian Releases</name>
-			<url>git:releases://git@github.com:synergian/wagon-git.git</url>
+			<name>PWheel Releases</name>
+			<url>git:releases://git@github.com:pwheel/wagon-git.git</url>
 		</repository>
 		<snapshotRepository>
 			<id>wagon-git-snapshots</id>
-			<name>Synergian Snapshots</name>
-			<url>git:snapshots://git@github.com:synergian/wagon-git.git</url>
+			<name>PWheel Snapshots</name>
+			<url>git:snapshots://git@github.com:pwheel/wagon-git.git</url>
 		</snapshotRepository>
 		<site>
 			<id>wagon-git-site</id>
 			<name>wagon-git Github Homepage</name>
-			<url>git:gh-pages://git@github.com:synergian/wagon-git.git</url>
+			<url>git:gh-pages://git@github.com:pwheel/wagon-git.git</url>
 		</site>
 	</distributionManagement>
 
