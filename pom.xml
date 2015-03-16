@@ -131,9 +131,9 @@
 		</plugins>
         <extensions>
             <extension>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>${project.artifactId}</artifactId>
-                <version>RELEASE</version>
+                <groupId>com.github.pwheel</groupId>
+                <artifactId>wagon-git</artifactId>
+                <version>0.2.6-SNAPSHOT</version>
             </extension>
         </extensions>
 	</build>
@@ -161,5 +161,12 @@
 			<url>git:gh-pages://git@github.com:pwheel/wagon-git.git</url>
 		</site>
 	</distributionManagement>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>staged-releases</id>
+            <url>file:///Users/paulwheeler/scratch/m2/repository</url>
+        </pluginRepository>
+    </pluginRepositories>
 
 </project>
