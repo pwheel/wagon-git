@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.pwheel</groupId>
+  <artifactId>wagon-git</artifactId>
+  <versioning>
+    <versions>
+      <version>0.2.6-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150316210646</lastUpdated>
+  </versioning>
+</metadata>
