@@ -148,12 +148,12 @@
 		<repository>
 			<id>wagon-git-releases</id>
 			<name>PWheel Releases</name>
-			<url>git:releases://git@github.com:pwheel/wagon-git.git</url>
+			<url>git:releases://git@github.com:pwheel/maven-repo.git</url>
 		</repository>
 		<snapshotRepository>
 			<id>wagon-git-snapshots</id>
 			<name>PWheel Snapshots</name>
-			<url>git:snapshots://git@github.com:pwheel/wagon-git.git</url>
+			<url>git:snapshots://git@github.com:pwheel/maven-repo.git</url>
 		</snapshotRepository>
 		<site>
 			<id>wagon-git-site</id>
@@ -161,12 +161,5 @@
 			<url>git:gh-pages://git@github.com:pwheel/wagon-git.git</url>
 		</site>
 	</distributionManagement>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>staged-releases</id>
-            <url>file:///Users/paulwheeler/scratch/m2/repository</url>
-        </pluginRepository>
-    </pluginRepositories>
 
 </project>
